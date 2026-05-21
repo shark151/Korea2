@@ -49,7 +49,7 @@ export default function CartAddItem({ itemId }: { itemId: string }) {
               </h3>
               <p className='text-sm'>
                 <span className='font-bold'> {t('Cart.Color')}: </span>{' '}
-                {/* {item.color ?? '-'} */}
+                {item.color ?? '-'}
               </p>
               <p className='text-sm'>
                 <span className='font-bold'> {t('Cart.Size')}: </span>{' '}

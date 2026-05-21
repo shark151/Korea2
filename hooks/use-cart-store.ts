@@ -36,8 +36,8 @@ const useCartStore = create(
         const existItem = items.find(
           (x) =>
             x.product === item.product &&
-            x.color === item.color &&
-            x.size === item.size
+            x.color === item.color 
+            // x.size === item.size
         )
 
         if (existItem) {
@@ -53,8 +53,8 @@ const useCartStore = create(
         const updatedCartItems = existItem
           ? items.map((x) =>
               x.product === item.product &&
-              x.color === item.color &&
-              x.size === item.size
+              x.color === item.color 
+              // x.size === item.size
               ? { ...existItem, quantity: existItem.quantity + quantity }
                 : x
             )
@@ -73,8 +73,8 @@ const useCartStore = create(
         const foundItem = updatedCartItems.find(
           (x) =>
             x.product === item.product &&
-            x.color === item.color &&
-            x.size === item.size
+            x.color === item.color 
+            // x.size === item.size
         )
         if (!foundItem) {
           throw new Error('Item not found in cart')
@@ -86,14 +86,14 @@ const useCartStore = create(
         const exist = items.find(
           (x) =>
             x.product === item.product &&
-            x.color === item.color &&
-            x.size === item.size
+            x.color === item.color 
+            // x.size === item.size
         )
         if (!exist) return
         const updatedCartItems = items.map((x) =>
           x.product === item.product &&
-          x.color === item.color &&
-          x.size === item.size
+          x.color === item.color 
+          // x.size === item.size
             ?{ ...exist, quantity: quantity }
             : x
         )
@@ -113,8 +113,8 @@ const useCartStore = create(
         const updatedCartItems = items.filter(
           (x) =>
             x.product !== item.product ||
-            x.color !== item.color ||
-            x.size !== item.size
+            x.color !== item.color 
+            // x.size !== item.size
         )
         set({
           cart: {

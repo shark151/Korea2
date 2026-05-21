@@ -29,7 +29,7 @@ const orderSchema = new Schema<IOrder>(
         price: { type: Number, required: true },
         countInStock: { type: Number, required: true },
         quantity: { type: Number, required: true },
-        size: { type: String },
+        // size: { type: String },
         color: { type: String },
       },
     ],

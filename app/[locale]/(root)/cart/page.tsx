@@ -92,7 +92,7 @@ export default function CartPage() {
                               {' '}
                               {t('Cart.Color')}:{' '}
                             </span>{' '}
-                            {/* {item.color} */}
+                            {item.color}
                           </p>
                           <p className='text-sm'>
                             <span className='font-bold'>

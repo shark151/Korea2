@@ -337,9 +337,8 @@ const products: IProductInput[] = [
     countInStock: 11,
     description:
       '6 فنجان قهوة  + 6 طبق للفنجان + 1 كنكة + غطاء  + 1 استاند ',
-    sizes: [],
-    colors: [ ],
 
+    colors: [ ],
     reviews: [],
   },
   //================================    أطقم شاي وجاتوة
@@ -371,7 +370,6 @@ const products: IProductInput[] = [
     description:
       'Made with sustainably sourced USA grown cotton; Shoulder-to-shoulder tape; double-needle coverstitched front neck; Set-in sleeves; Rib cuffs with concealed seams; Seamless body for a wide printing area',
 
-    sizes: [],
     colors: ['Yellow', 'Red', 'Black'],
 
     reviews: [],
@@ -400,7 +398,7 @@ const products: IProductInput[] = [
     countInStock: 13,
     description:
       'الطقم مكوّن من ٥ قطع سيليكون نضيف جدًا وطبيعي 100%، آمن على الأكل، ومش بيتفاعل مع الحرارة أو الزيوت',
-    sizes: [],
+
     colors: ['C-114', 'C-115' , 'C-116'],
 
     reviews: [],
@@ -431,7 +429,7 @@ const products: IProductInput[] = [
     countInStock: 14,
     description:
       'Elevate your outfit with this soft long sleeve t shirt men. This full sleeves tee is the ultimate upgrade from your regular cotton t-shirt. ',
-    sizes: [],
+
     colors: ['Yellow', 'White'],
 
     reviews: [],
@@ -462,7 +460,7 @@ const products: IProductInput[] = [
     countInStock: 15,
     description:
       "Slim Fit Design:Men's Muscle Slim Fit Button Henley Shirts are designed to fit snugly against your body, accentuating your muscles and creating a sleek silhouette that's perfect for any occasion. ",
-    sizes: [],
+
     colors: ['Green', 'Yellow'],
 
     reviews: [],
@@ -491,7 +489,7 @@ const products: IProductInput[] = [
     numSales: 256,
     description:
       'Heavyweight cotton (Heathers are 60% cotton/40% polyester; Pebblestone is 75% cotton/25% polyester)',
-    sizes: [],
+
     colors: ['Grey', 'White'],
 
     reviews: [],
@@ -524,7 +522,7 @@ const products: IProductInput[] = [
     numSales: 72,
     description:
       'طقم صواني 2 قطعة استانلس ستيل 18/10 عالي الجوده مقاسات كبيرة ومقاوم للصدأ والتاكل وسهل التنظيف ',
-    sizes: [],
+
     colors: ['Blue', 'Grey'],
 
     reviews: [],
@@ -553,7 +551,7 @@ const products: IProductInput[] = [
     numSales: 54,
     description:
       'These classic 5-pocket straight-fit jeans are crafted with a bit of stretch for additional comfort and to help maintain their shape',
-    sizes: [],
+
     colors: ['Grey', 'Blue'],
 
     reviews: [],
@@ -584,7 +582,7 @@ const products: IProductInput[] = [
     numSales: 54,
     description:
       'A veritable classic, this 505 is made to have a comfortable look and style.',
-    sizes: [],
+
     colors: ['Blue', 'Grey'],
 
     reviews: [],
@@ -616,7 +614,7 @@ const products: IProductInput[] = [
     numSales: 53,
     description:
       'Stretch recycled denim jeans in an authentic and sanded wash blue. Features a comfortable low-rise waist with a relaxed fit at the leg. The distressed look gives these jeans an effortlessly worn-in feel. The eco-friendly logo patch in tan and red is at the back waistband. The signature maple leaf graphic is debossed at the zip-fly.',
-    sizes: [],
+
     colors: ['Blue', 'Grey'],
 
     reviews: [],
@@ -645,7 +643,7 @@ const products: IProductInput[] = [
     numSales: 240,
     description:
       'طقم شوك ومعالق ستانلس ستيل علي شكل بيضة – 24 قطعة هو طقم أنيق وعصري مصنوع من ستانلس ستيل عالي الجودة',
-    sizes: [],
+
     colors: ['Gold', 'Silver'],
 
     reviews: [],
@@ -674,7 +672,7 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'Designed with a functional fit in mind, these jeans are made to stack over your favorite pair of boots. Constructed with a slim fit in the waist, seat, and thigh, this jean is made for both function and comfort for long days in the saddle.',
-    sizes: [],
+
     colors: [],
 
     reviews: [],
@@ -704,7 +702,7 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'Casing: Case made Glass:  clasp with safety',
-    sizes: [],
+
     colors: [],
 
     reviews: [],
@@ -735,7 +733,7 @@ const products: IProductInput[] = [
     numSales: 189,
     description:
       'طقم توابل بورسلين تاج استاند بجودة ممتازة وتصميم يخطف الأنظار في أي مطبخ',
-    sizes: [],
+
     colors: [],
 
     reviews: [],
@@ -766,7 +764,7 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'The Casio range is growing with this model  MWA-100H-1AVEF. Sporting a stainless steel case with a brushed finish, it will easily withstand all the shocks of everyday life.',
-    sizes: [],
+
     colors: [],
 
     reviews: [],
@@ -797,8 +795,8 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'The new MTPVD01D-7EV is a classic 50 meter water resistant stainless steel watch now updated with a white dial. This elegant 3 hand, date display timepiece is perfect for any setting.',
-    sizes: [],
-    colors: [], 
+
+    colors: ['Selver'], 
     reviews: [],
   },
   //===============================  أطقم الأركوبيركس
@@ -825,8 +823,8 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'آمن للاستخدام في الميكروويف ,آمن للاستخدام في غسالة الأطباق , زجاج صحي للغاية وغير مسامي ولا يحتفظ بالروائح والبقع',
-    sizes: ['C-113' , 'C-114'],
-    colors: [],
+
+    colors: ['SL517'],
 
     reviews: [],
   },
@@ -854,7 +852,7 @@ const products: IProductInput[] = [
     numSales: 49,
     description:
       'In masculine black-on-black,  modern touch to your casual look. This Machine watch also features a three hand movement on a stainless steel bracelet.',
-    sizes: [],
+
     colors: ['C-114', 'C-115'],
 
     reviews: [],
@@ -883,7 +881,7 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
-    sizes: [],
+
     colors: ['White', 'Black', 'Grey'],
 
     reviews: [],
@@ -915,7 +913,7 @@ const products: IProductInput[] = [
     numSales: 158,
     description:
         '6  غطاء د ',
-    sizes: [],
+
     colors: [],
     reviews: [],
   },
@@ -947,8 +945,8 @@ const products: IProductInput[] = [
     numSales: 72,
     description:
       'شياله كحك وبسكويت وكاندي ٣ دور شكل الدوب بعمود استانلس ستيل  ',
-    sizes: [],
-    colors: [],
+
+    colors: ['Pink' , 'white'],
 
     reviews: [],
   },
@@ -978,7 +976,7 @@ const products: IProductInput[] = [
     numSales: 72,
     description:
       'طقم التنظيف ',
-    sizes: [],
+
     colors: [],
 
     reviews: [], 
@@ -1009,7 +1007,7 @@ const products: IProductInput[] = [
     // numSales: 72,
     // description:
     //   'طقم صواني 2 قطعة استانلس ستيل 18/10 عالي الجوده مقاسات كبيرة ومقاوم للصدأ والتاكل وسهل التنظيف ',
-    // sizes: [],
+
   //=========================================  شنط معالق وسكاكين 
   {
     name: "ASICS Men's GT-2000 13 Running Shoes",
@@ -1034,8 +1032,8 @@ const products: IProductInput[] = [
     numSales: 64,
     description:
       " reduce waste and carbon emissions",
-    sizes: [],
-    colors: [],
+
+    colors: ['Selver' , 'Gold'],
 
     reviews: [],
   },
@@ -1064,7 +1062,7 @@ const products: IProductInput[] = [
     numSales: 48,
     description:
       'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
-    sizes: [],
+
     colors: [],
 
     reviews: [],
@@ -1095,7 +1093,7 @@ const products: IProductInput[] = [
   //   numSales: 48,
   //   description:
   //     'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
-  //   sizes: [],
+
   //   colors: [],
 
   //   reviews: [],
@@ -1126,7 +1124,7 @@ const products: IProductInput[] = [
   //   numSales: 48,
   //   description:
   //     'Cloudfoam Comfort sockliner is ultra-soft and plush, with two layers of cushioning topped with soft, breathable mesh',
-  //   sizes: [],
+ 
   //   colors: [],
 
   //   reviews: [],

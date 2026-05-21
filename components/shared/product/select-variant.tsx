@@ -4,15 +4,15 @@ import Link from 'next/link'
 
 export default function SelectVariant({
   product,
-  size,
   color,
+  // size,
 }: {
   product: IProduct
   color: string | null
-  size: string | null
+  // size: string | null
 }) {
   const selectedColor = color || (product.colors?.[0] ?? null)
-  const selectedSize = size || (product.sizes?.[0] ?? null)
+  // const selectedSize = size || (product.sizes?.[0] ?? null)
 
   return (
     <>
@@ -33,7 +33,7 @@ export default function SelectVariant({
                 scroll={false}
                 href={`?${new URLSearchParams({
                   color: x,
-                  size: selectedSize ?? '',
+                  // size: selectedSize ?? '',
                 })}`}
                 key={x}
               >
@@ -47,7 +47,7 @@ export default function SelectVariant({
           ))}
         </div>
       )}
-      {product.sizes && product.sizes.length > 0 && (
+      {/* {product.sizes && product.sizes.length > 0 && (
         <div className='mt-2 space-x-2 space-y-2'>
           <div>Size:</div>
           {product.sizes.map((x: string) => (
@@ -72,7 +72,7 @@ export default function SelectVariant({
             </Button>
           ))}
         </div>
-      )}
+      )} */}
     </>
   )
 }
