@@ -97,7 +97,7 @@ export default function CartPage() {
                           <p className='text-sm'>
                             <span className='font-bold'>
                               {' '}
-                              {t('Cart.Size')}:{' '}
+                              {/* {t('Cart.Size')}:{' '} */}
                             </span>{' '}
                             {/* {item.size} */}
                           </p>
