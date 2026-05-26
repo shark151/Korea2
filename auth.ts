@@ -13,6 +13,7 @@ declare module 'next-auth' {
   interface Session {
     user: {
       role: string
+      id: string
     } & DefaultSession['user']
   }
 }
@@ -31,7 +32,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   adapter: MongoDBAdapter(client),
   providers: [
     Google({
-      allowDangerousEmailAccountLinking: true,
+    clientId: process.env.GOOGLE_CLIENT_ID!,
+    clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+    allowDangerousEmailAccountLinking: true,
     }),
     CredentialsProvider({
       credentials: {
@@ -76,6 +79,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         }
         token.name = user.name || user.email!.split('@')[0]
         token.role = (user as { role: string }).role
+        
       }
 
       if (session?.user?.name && trigger === 'update') {

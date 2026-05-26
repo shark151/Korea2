@@ -1,5 +1,5 @@
-import { Geist, Geist_Mono, Cairo } from 'next/font/google'
 import '../globals.css'
+import { Geist, Geist_Mono, Cairo } from 'next/font/google'
 import ClientProviders from '@/components/shared/client-providers'
 import { getDirection } from '@/i18n-config'
 import { NextIntlClientProvider } from 'next-intl'

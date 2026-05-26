@@ -46,7 +46,7 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({
 
 const CustomXAxisTick: React.FC<any> = ({ x, y, payload }) => {
   return (
-    <text x={x} y={y + 10} textAnchor='left' fill='#947a7aff' className='text-xm'>
+    <text x={x} y={y + 10} textAnchor='start' fill='#947a7aff' className='text-xm'>
       {formatDateTime(new Date(payload.value)).dateOnly}
       {/* {`${payload.value.split('/')[1]}/${payload.value.split('/')[2]}`} */}
     </text>
