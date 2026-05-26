@@ -13,7 +13,7 @@ body {
     
 } 
 
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *)); */
 
 @layer base {
   :root {

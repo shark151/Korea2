@@ -3,7 +3,7 @@ import { withUt } from 'uploadthing/tw'
 import tailwindcssAnimate from 'tailwindcss-animate'
 
 const config: Config = withUt({
-  darkMode: 'class',
+  darkMode: ['class'],
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
