@@ -44,7 +44,7 @@ export default async function AppLayout({
   params,
   children,
 }: {
-  params: { locale: string }
+  params: Promise<{ locale: string }>
   children: React.ReactNode
 }) {
   const setting = await getSetting()
@@ -52,6 +52,7 @@ export default async function AppLayout({
   const currency = currencyCookie ? currencyCookie.value : 'EGP'
 
   const { locale } = await params
+
   // Ensure that the incoming `locale` is valid
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   if (!routing.locales.includes(locale as any)) {
