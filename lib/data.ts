@@ -317,8 +317,8 @@ const products: IProductInput[] = [
   {
     name: 'طقم قهوة بورسلين الأندلس ملكي 15 قطعة ',
     slug: toSlug('طقم شاى وجاتوة ماليزي 24 ق كريمي'),
-    category: 'Coffee - Tea',
-    images: ['/images/Coffee&Tea.jpg'],
+    category: 'Coffee',
+    images: ['/images/Coffee.jpg'],
     tags: ['new-arrival' , 'best-seller'],
     isPublished: true,                              //english image
     price: 1100,
