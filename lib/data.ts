@@ -2,7 +2,6 @@ import { Data, IProductInput, IUserInput } from '@/types'
 import { toSlug } from './utils'
 import bcrypt from 'bcryptjs'
 import { i18n } from '@/i18n-config'
-// import reviewsAr from  './reviews.ar.json'
 
 const users: IUserInput[] = [
   {
@@ -53,7 +52,7 @@ const users: IUserInput[] = [
       country: 'EGP',
       phone: '0123-456-7890',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Wallet Payment',
     emailVerified: false,
   },
   {
@@ -155,7 +154,7 @@ const users: IUserInput[] = [
       country: 'EGP',
       phone: '0120-406-9812',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Wallet Payment',
     emailVerified: false,
   },
   {
@@ -257,7 +256,7 @@ const users: IUserInput[] = [
       country: 'EGP',
       phone: '',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Wallet Payment',
     emailVerified: false,
   },
   {
@@ -291,7 +290,7 @@ const users: IUserInput[] = [
       country: 'EGP',
       phone: '',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Wallet Payment',
     emailVerified: false,
   },
   {
@@ -308,7 +307,7 @@ const users: IUserInput[] = [
       country: 'EGP',
       phone: '',
     },
-    paymentMethod: 'PayPal',
+    paymentMethod: 'Wallet Payment',
     emailVerified: false,
   },
 ]
@@ -1738,7 +1737,7 @@ const data: Data = {
   headerMenus: [
     {
       name: "Today's Deal",
-      href: '/search?tag=todays-deal',
+      href: '/search?tag=todays-deal',  
     },
     {
       name: 'New Arrivals',
@@ -1771,24 +1770,24 @@ const data: Data = {
   ],
   carousels: [
     {
-      title: 'Most Popular Shoes For Sale',
+      title: 'Neoflam Korean Granite 14 Pieces Cookware Set',
       buttonCaption: 'Shop Now',
       image: '/images/seramek.jpg',
-      url: '/search?category=حلل جرانيت',
+      url: '/search?category=NeoFlam',
       isPublished: true,
     },
     {
-      title: 'Best Sellers in T-Shirts',
+      title: 'Lotus Napoleon tea set 24 Pieces',
       buttonCaption: 'Shop Now',
       image: '/images/tea-2.jpg',
-      url: '/search?category=اطقم شاي',
+      url: '/search?category=أطقم شاي وجاتوة',
       isPublished: true,
     },
     {
-      title: 'Best Deals on Wrist Watches',
+      title: 'Oxford Aladdin Tea 24 Pieces Set',
       buttonCaption: 'See More',
       image: '/images/tea.jpg',
-      url: '/search?category=اطقم شاي',
+      url: '/search?category=أطقم شاي وجاتوة',
       isPublished: true,
     },
   ],
@@ -1802,9 +1801,9 @@ const data: Data = {
         pageSize: 9,
       },
       site: {
-        name: 'shark',
+        name: 'Korea',
         description:
-          'NxtAmzn is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
+          'Korea HouseHold is a sample Ecommerce website built with Next.js, Tailwind CSS, and MongoDB.',
         keywords: 'Next Ecommerce, Next.js, Tailwind CSS, MongoDB',
         url: 'https://next-mongo-ecommerce-final.vercel.app',
         logo: '/icons/img-1.png',
@@ -1812,30 +1811,29 @@ const data: Data = {
         author: 'Next Ecommerce',
         copyright: '2000-2024, Next-Ecommerce.com, Inc. or its affiliates',
         email: 'admin@example.com',
-        address: '123, Main Street, Anytown, CA, Zip 12345',
+        address: '123, Main Street ',
         phone: '+1 (123) 456-7890',
       },
       carousels: [
     {
-      title: 'Most Popular Shoes For Sale',
+      title: 'Neoflam Korean Granite 14 Pieces Cookware Set',
       buttonCaption: 'Shop Now',
       image: '/images/seramek.jpg',
-      url: '/search?category=حلل جرانيت',
+      url: '/search?category=NeoFlam',
       
     },
     {
-      title: 'Best Sellers in T-Shirts',
+      title: 'Lotus Napoleon tea set 24 Pieces',
       buttonCaption: 'Shop Now',
       image: '/images/tea-2.jpg',
-      url: '/search?category=اطقم شاي',
+      url: '/search?category=أطقم شاي وجاتوة',
       
     },
     {
-      title: 'Best Deals on Wrist Watches',
+      title: 'Oxford Aladdin Tea 24 Pieces Set',
       buttonCaption: 'See More',
       image: '/images/tea.jpg',
-      url: '/search?category=اطقم شاي',
-     
+      url: '/search?category=أطقم شاي وجاتوة',
     },
   ],
       availableLanguages: i18n.locales.map((locale) => ({
