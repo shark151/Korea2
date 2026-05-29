@@ -181,7 +181,7 @@ const CheckoutForm = () => {
         {isAddressSelected && !isPaymentMethodSelected && (
           <div className=' mb-4'>
             <Button
-              className='rounded-full w-full '
+              className='rounded-full w-full'
               onClick={handleSelectPaymentMethod}
             >
               {t('UseThisPaymentMethod')}

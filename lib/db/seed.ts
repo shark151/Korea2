@@ -33,10 +33,25 @@ const main = async () => {
     await WebPage.deleteMany()
     await WebPage.insertMany(webPages)
 
-    await Product.deleteMany()
-    const createdProducts = await Product.insertMany(
-      products.map((x) => ({ ...x, _id: undefined }))
-    )
+//await Product.deleteMany()    
+
+    // const createdProducts = await Product.insertMany(
+    //   products.map((x) => ({ ...x, _id: undefined }))
+    // )
+
+    const createdProducts = []
+    for (const product of products) {
+      const updatedProduct = await Product.findOneAndUpdate(
+        { slug: product.slug },
+        { $set: product },
+
+        {
+          upsert: true,
+          new: true,
+        }
+      )
+      createdProducts.push(updatedProduct)
+    }
 
     await Review.deleteMany()
     const rws = []

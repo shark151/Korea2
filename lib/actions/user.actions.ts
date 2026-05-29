@@ -29,7 +29,7 @@ export async function registerUser(userSignUp: IUserSignUp) {
     })
     return { success: true, message: 'User created successfully' }
   } catch (error) {
-    return { success: false, error: formatError(error) }
+    return { success: false, error: formatError(error)}
   }
 }
 
